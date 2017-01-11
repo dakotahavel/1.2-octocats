@@ -1,4 +1,153 @@
 
- body {
-   background-color: orange;
- }
+img{
+max-width: 100%;
+}
+
+a {
+display: inline-block;
+
+}
+
+div{
+  display: inline-block;
+
+}
+
+span{
+  display:inline-block;
+
+
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display:inline-block;
+
+}
+
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/*ul of entire body*/
+.octodex{
+display: inline-block;
+max-width: 100%;
+padding: 0;
+margin: 1%;
+font-weight: bold;
+}
+
+/* li of cat pic + 115 + the saristocat by + author pics*/
+.octocat{
+max-width: 32%;
+display:inline-block;
+border-bottom: solid;
+border-color: #cacaca;
+border-width: 1px;
+margin: 0.5%;
+}
+
+
+/*cat pic*/
+.octocat a img{
+border: solid;
+border-width: 1px;
+border-radius:4px;
+border-color: #cacaca;
+}
+
+/*115 + the saristocat by + pics*/
+.image-footer{
+display: inline-block;
+max-width: 100%;
+padding-top: 2%;
+padding-bottom: 2%;
+vertical-align: middle;
+}
+
+/*arrow */
+.image-footer:after{
+content: "";
+display: inline-block;
+border: 8px solid transparent;
+border-top-color: #cacaca;
+position: relative;
+left: 85%;
+top: -13px;
+}
+
+
+/*115*/
+.image-number{
+display:inline-block;
+text-align: left;
+max-width: 15%;
+color: #cacaca;
+/*vertical-align: text-bottom;*/
+}
+
+/*octothorp*/
+.image-number:before{
+content:"#"
+}
+
+/*the saristocat by + author pics*/
+.image-caption{
+font-family: helvetica;
+font-style: bold;
+display:inline-block;
+max-width: 55%;
+text-align: right;
+float: right;
+font-size: 90%;
+/*vertical-align: top;*/
+}
+
+/*saristocat*/
+.image-caption a{
+display: inline-block;
+text-decoration: none;
+color: #2C3539;
+
+}
+
+/*the & by*/
+.image-caption span{
+display: inline-block;
+  color: #7B7D7D;
+  padding:1%;
+
+}
+
+/*ul of authors images*/
+.authors{
+display:inline;
+padding: 0;
+}
+
+.authors li{
+  display: inline;
+  padding:1%;
+}
+
+.authors li a{
+  display: inline;
+}
+
+.authors li a img{
+  float:right;
+  display: inline;
+  max-width:10%;
+  border-style:none;
+
+}
+
+
+
+/*============*/
